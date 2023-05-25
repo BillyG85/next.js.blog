@@ -3,7 +3,7 @@ import SanityService from "../services/SanityServices"
 import { Row } from "antd"
 import Link from 'next/link'
 import { CodeOutlined } from "@ant-design/icons"
-import { Header } from "antd/lib/layout/layout"
+// import { Header } from "antd/lib/layout/layout"
 import Header from "../components/Header"
 import BlogHeadline from "../components/BlogHeadline"
 import BlogMainPost from "../components/BlogMainPost"
@@ -23,7 +23,6 @@ export default function Home({ home, posts }) {
       <BlogMainPost { ...mainPost}/>
       <BlogList posts={otherPosts} />
       <Footer />
-
     </div>
   )
 }
